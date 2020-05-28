@@ -4,21 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "babel ./src -d ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pooja8269/commonlogger.git"
   },
-  "keywords": [
-    "npm",
-    "node",
-    "javascript"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pooja8269/commonlogger/issues"
   },
-  "homepage": "https://github.com/Pooja8269/commonlogger#readme"
+  "homepage": "https://github.com/Pooja8269/commonlogger#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
